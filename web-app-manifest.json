@@ -10,8 +10,8 @@
 ],
 "theme_color": "#9E9E9E",
 "background_color": "#9E9E9E",
-"scope":"clurts.github.io/himmelev/",
-"start_url": "clurts.github.io/himmelev/index.html",
+"scope":"/himmelev/",
+"start_url": "/himmelev/index.html",
 "display": "standalone",
 "orientation": "portrait"
 }
