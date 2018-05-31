@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>
+    <link rel="apple-touch-icon-precomposed" href="icon.png"/>
+    <link rel="apple-touch-icon" href="icon.png"/>
+    <link rel="manifest" href="web-app-manifest.json">
+    
+
+  <link rel="stylesheet" href="style.css">
+
+
+  
+</head>
+
+<body>
+
+      <div id="welcome">
+        <h1>Welcome to the memory game</h1>
+        <p>Choose number of tiles</p>
+        <form id="playGame" method="post">
+            
+            <input type="radio" name="numberOfTiles" value="16" id="sixteen" checked><label for="sixteen">16</label>
+            <input type="radio" name="numberOfTiles" value="20" id="twenty"><label for="twenty">20</label>
+            <input type="radio" name="numberOfTiles" value="24" id="twentyfour"><label for="twentyfour">24</label>
+            
+            <button type="submit">Play game</button>
+        </form>
+    </div>
+    <div id="board">
+    </div>
+    <div id="message">
+        <p>Congrats! You got 'em all!</p>
+        <button>End game!</button>
+    </div>
+  
+  
+
+    <script  src="index.js"></script>
+
+
+
+
+</body>
+
+</html>
