@@ -54,6 +54,7 @@ function newGame () {
   board.style.display = 'none'; 
   welcome.style.display = 'flex';
   message.classList.remove('show');
+  flipCounter = 0;
 }
 
 function flipBack() {
